@@ -5,16 +5,12 @@ Implementation of Procure-to-Pay (P2P) cycle in SAP MM, demonstrating end-to-end
 📌 Project Overview
 
 This project explains the end-to-end Procure-to-Pay (P2P) process in SAP Materials Management (MM). The P2P cycle is a core business process in supply chain management that covers purchasing goods from vendors and making payments.
-
 The project demonstrates how procurement activities are integrated with inventory management and financial accounting in SAP.
-
 
 🎯 Problem Statement
 
 Organizations need an efficient system to manage procurement, vendor transactions, and payments. Manual processes can lead to errors, delays, and lack of transparency.
-
 This project addresses how SAP MM automates the Procure-to-Pay cycle, ensuring:
-
 Accurate procurement tracking
 Proper inventory management
 Seamless financial integration
@@ -24,13 +20,16 @@ Seamless financial integration
 ABC Pvt Ltd is a manufacturing company that procures raw materials from vendors to produce finished goods. The company uses SAP MM to manage procurement efficiently and ensure timely availability of materials.
 
 🔄 Process Flow
+
 Purchase Requisition → Purchase Order → Goods Receipt → Invoice Verification → Payment
 
 🧩 Project Modules Used
+
 SAP MM (Materials Management)
 SAP FI (Financial Accounting)
 
 📸 Process Steps
+
 1️⃣ Purchase Requisition (ME51N)
 Internal request to procure goods
 2️⃣ Purchase Order (ME21N)
@@ -43,6 +42,7 @@ Vendor invoice is verified
 Vendor payment processed
 
 💰 Accounting Entries
+
 Goods Receipt:
 Inventory A/c        Dr  
    To GR/IR A/c
